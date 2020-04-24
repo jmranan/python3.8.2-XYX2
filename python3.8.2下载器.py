@@ -85,6 +85,13 @@ dk = True #这里可以写True和False,没有双引号 具体看下方说明
 
 
 
+
+
+
+
+
+
+
 print("此为姜睦然制作")
 print(f"开始下载{name}")
 dll = dl(url,name)
@@ -96,7 +103,7 @@ if az == True:
         os.system(name)
         os.system(f"del {name}")
     else:
-        os.sysytem(f"del {name}")
+        os.system(f"del {name}")
         input("\n下载失败，请确定网络正常")
 elif az == False:
     if dll == "ok":
